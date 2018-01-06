@@ -80,7 +80,6 @@ class App extends Component {
         <Title />
         {this.state.friends.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
             friendClick={this.friendClick}
             id={friend.id}
             key={friend.id}
